@@ -1,7 +1,7 @@
 body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #ff0000, #b71c1c);
-    color: #ffeb3b;
+    font-family: 'Noto Serif', serif;
+    background: linear-gradient(to bottom, #f2f2f2, #e0e0e0);
+    color: #333;
     margin: 0;
     padding: 20px;
     box-sizing: border-box;
@@ -9,39 +9,47 @@ body {
 }
 
 .header {
-    background-color: #b71c1c;
+    background-color: #333;
     padding: 20px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #999;
     margin-bottom: 20px;
 }
 
 .header h1 {
     margin: 0;
-    color: #ffeb3b;
+    color: #f2f2f2;
+    font-family: 'Noto Serif', serif;
+    font-size: 2em;
 }
 
 .content {
     margin: 20px 0;
+    border-top: 2px solid #999;
+    border-bottom: 2px solid #999;
+    padding: 20px 0;
 }
 
 .content p {
     margin: 10px 0;
+    font-family: 'Noto Serif', serif;
 }
 
 .footer {
     margin-top: 20px;
-    border-top: 2px solid black;
+    border-top: 2px solid #999;
     padding-top: 20px;
 }
 
 .footer p {
     margin: 0;
-    color: #ffeb3b;
+    color: #333;
+    font-family: 'Noto Serif', serif;
 }
 
 a {
-    color: #ffeb3b;
+    color: #333;
     text-decoration: none;
+    font-family: 'Noto Serif', serif;
 }
 
 a:hover {
